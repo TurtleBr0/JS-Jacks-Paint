@@ -11,8 +11,8 @@ function configureListeners() {
 }
 
 function addOpacity(event) {
-    if (!this.classList.contains('dim')){
-        this.classList.add('dim')
+    if (!this.classList.contains('color')){
+        this.classList.add('color')
     
     // add appropriate CSS class
     getProductInfo(event.target.id); 
@@ -20,8 +20,8 @@ function addOpacity(event) {
 }
 
 function removeOpacity(event) {
-    if (this.classList.contains('dim')){
-        this.classList.remove('dim');
+    if (this.classList.contains('color')){
+        this.classList.remove('color');
     }
      //remove appropriate CSS class
 
